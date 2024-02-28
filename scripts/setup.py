@@ -50,7 +50,7 @@ def api_server() -> None:
 
 
 if __name__ == "__main__":
-    print("fSoc - Development Setup Program")
+    print("Setup - Development Setup Program")
 
     opt = ["Web Server", "Api Setup", "Exit"]
 
