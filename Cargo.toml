@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+default-members = ["bin/web-server"]
+members = [
+    "libs/lib-core",
+    "libs/lib-sqlx-setup",
+    "libs/lib-auth",
+    "libs/lib-crypto",
+    "libs/lib-util",
+
+    # Application Services
+    "bin/api-server",
+    "bin/web-server",
+    "bin/tools/local-server",
+]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
